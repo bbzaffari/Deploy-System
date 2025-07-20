@@ -1,0 +1,19 @@
+
+#
+#nm -D purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+#nm -D purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep proto
+#strings purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep proto
+#strings purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep  _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+#readelf -d purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep NEEDED
+#objdump -T purecpp_meta/purecpp_meta/RagPUREAI_meta.cpython-311-x86_64-linux-gnu.so | grep _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+#
+#
+#
+#nm -D purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+#nm -D purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep proto
+#strings purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep proto
+#strings purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+#readelf -d purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep NEEDED
+#objdump -T purecpp_libs/purecpp_libs/RagPUREAI_libs.cpython-311-x86_64-linux-gnu.so | grep _ZNK6google8protobuf11MessageLite39InternalSerializeWithCachedSizesToArrayEbPh
+
+
